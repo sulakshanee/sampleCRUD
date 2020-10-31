@@ -40,7 +40,7 @@
 					$_SESSION['user_id'] = $user['id'];
 					$_SESSION['first_name'] = $user['first_name'];
 					// Redirect to user_list.php
-					header('Location: user_list.php');
+					header('Location: view_user.php');
 				}
 
 				else {

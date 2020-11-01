@@ -1,4 +1,3 @@
-<?php session_start(); ?>
 <?php require_once('inc/connection.php'); ?>
 <?php
 	//Checking if a user is logged in
